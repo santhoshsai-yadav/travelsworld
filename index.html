@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light  shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fs-3 fw-bold" href="#"><span style="color:#FFa500;">Tr</span>avel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-capitalize text-dark fs-5 fw-bold" aria-current="page"
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize text-dark fs-5 fw-bold" href="#books">book</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize text-dark fs-5 fw-bold" href="#package">package</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize text-dark fs-5 fw-bold" href="#services">services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize text-dark fs-5 fw-bold" href="#gallery">gallery</a>
+                    </li>
+
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link text-dark fs-5 fw-bold" href="#about">about</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn " style="background-color: #FFa500;color: aliceblue;"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="book-wrapper mb-5" id="book">
+        <div class="book-text text-center text-light">
+            <h4 class="text-capitalize text-center fs-2 fw-400 ">welcome to world</h4>
+            <h1 class="text-capitalize text-center fs-1 fw-600">visit <span class="changecontent text-capitalize"></span>
+            </h1>
+            <p class="text-capitalize text-center mt-3 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora
+                facilis neque aspernatur amet voluptatum accusamus.</p>
+            <button class="btn bg-light text-capitalize mt-3 fs-5 fw-400 ">book now</button>
+        </div>
+    </section>
+
+
+    <section class="book-cover bg-light pb-5" id="books">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="book-content">
+                        <h2 class="text-capitalize text-center"><span class="books" style="color: #FFa500;">b</span>ook
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="book-img mt-5">
+                        <img src="./images/book-img.png" class="img-fluid img-thumbnail  shadow-sm" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <input type="text" class="form-control mt-5 text-capitalize shadow-sm" placeholder="where to"
+                            required>
+                        <input type="text" class="form-control mt-4 text-capitalize shadow-sm" placeholder="how many"
+                            required>
+                        <input type="date" class="form-control mt-4 text-capitalize shadow-sm" placeholder="arrivals"
+                            required>
+                        <input type="date" class="form-control mt-4 text-capitalize shadow-sm" placeholder="leaving"
+                            required>
+                        <textarea class="form-control mt-4 text-capitalize shadow-sm" rows="5" name="text"
+                            placeholder="enter  your name & details"></textarea>
+                        <input type="submit" value="book now"
+                            class="submit text-capitalize shadow-sm mt-4 px-5 py-2 fs-6 fw-bold"
+                            style="background-color: #FFa500; border-radius: 10px; border: 1px solid #FFa500; color: aliceblue;">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="packages" id="package">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="package-heading">
+                        <h2 class="text-capitalize mt-5 text-center"><span style="color: #FFa500;">p</span>ackage</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-lg-4 gy-4">
+                    <div class="package-card">
+                        <div class="card">
+                            <img src="./images/uk.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="text-capitalize">united kingdom</h3>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsam,
+                                    veniam?</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked " style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+
+                                </div>
+                                <div class="price">
+                                    <h5 class="text-capitalize mt-2">price:$500</h5>
+                                    <button class="text-capitalize px-2"
+                                        style="border: none; background-color: #FFa500; color: aliceblue; border-radius: 2px;">book
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="package-card">
+                        <div class="card">
+                            <img src="./images/france.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="text-capitalize">france</h3>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsam,
+                                    veniam?</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked " style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+
+                                </div>
+                                <div class="price">
+                                    <h5 class="text-capitalize mt-2">price:$500</h5>
+                                    <button class="text-capitalize px-2"
+                                        style="border: none; background-color: #FFa500; color: aliceblue; border-radius: 2px;">book
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="package-card">
+                        <div class="card">
+                            <img src="./images/pakistan.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="text-capitalize">pakistan</h3>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsam,
+                                    veniam?</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked " style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+
+                                </div>
+                                <div class="price">
+                                    <h5 class="text-capitalize mt-2">price:$500</h5>
+                                    <button class="text-capitalize px-2"
+                                        style="border: none; background-color: #FFa500; color: aliceblue; border-radius: 2px;">book
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-lg-4 gy-4">
+                    <div class="package-card">
+                        <div class="card">
+                            <img src="./images/italy.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="text-capitalize">italy</h3>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsam,
+                                    veniam?</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked " style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+
+                                </div>
+                                <div class="price">
+                                    <h5 class="text-capitalize mt-2">price:$500</h5>
+                                    <button class="text-capitalize px-2"
+                                        style="border: none; background-color: #FFa500; color: aliceblue; border-radius: 2px;">book
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="package-card">
+                        <div class="card">
+                            <img src="./images/india.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="text-capitalize">india</h3>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsam,
+                                    veniam?</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked " style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+
+                                </div>
+                                <div class="price">
+                                    <h5 class="text-capitalize mt-2">price:$500</h5>
+                                    <button class="text-capitalize px-2"
+                                        style="border: none; background-color: #FFa500; color: aliceblue; border-radius: 2px;">book
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="package-card">
+                        <div class="card">
+                            <img src="./images/us.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="text-capitalize">united states</h3>
+                                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsam,
+                                    veniam?</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked " style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star checked" style="color: #FFa500;"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star "></i>
+
+                                </div>
+                                <div class="price">
+                                    <h5 class="text-capitalize mt-2">price:$500</h5>
+                                    <button class="text-capitalize px-2"
+                                        style="border: none; background-color: #FFa500; color: aliceblue; border-radius: 2px;">book
+                                        now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="servicess" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="services-heading text-center text-capitalize mt-5">
+                        <h2><span style="color: #FFa500;">s</span>ervices</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 gy-4">
+                    <div class="services-cards shadow-sm p-4 rounded bg-white text-center">
+                        <i class="fas fa-hotel" style="color: #FFa500;font-size: 60px;"></i>
+                        <div class="card-bodys mt-2">
+                            <h3 class="text-capitalize fw-bold">affordable hotel</h3>
+                            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                                quod.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="services-cards shadow-sm p-4 rounded bg-white text-center">
+                        <i class="fas fa-utensils" style="color: #FFa500;font-size: 60px;"></i>
+                        <div class="card-bodys mt-2">
+                            <h3 class="text-capitalize fw-bold">food and drinks</h3>
+                            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                                quod.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="services-cards shadow-sm p-4 rounded bg-white text-center">
+                        <i class="fas fa-bullhorn" style="color: #FFa500;font-size: 60px;"></i>
+                        <div class="card-bodys mt-2">
+                            <h3 class="text-capitalize fw-bold">safety guide</h3>
+                            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                                quod.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row py-2">
+                <div class="col-lg-4 gy-4">
+                    <div class="services-cards shadow-sm p-4 rounded bg-white text-center">
+                        <i class="fas fa-globe-asia" style="color: #FFa500;font-size: 60px;"></i>
+                        <div class="card-bodys mt-2">
+                            <h3 class="text-capitalize fw-bold">around the world</h3>
+                            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                                quod.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="services-cards shadow-sm p-4 rounded bg-white text-center">
+                        <i class="fas fa-plane" style="color: #FFa500;font-size: 60px;"></i>
+                        <div class="card-bodys mt-2">
+                            <h3 class="text-capitalize fw-bold">fastest travel</h3>
+                            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                                quod.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 gy-4">
+                    <div class="services-cards shadow-sm p-4 rounded bg-white text-center">
+                        <i class="fas fa-hiking" style="color: #FFa500;font-size: 60px;"></i>
+                        <div class="card-bodys mt-2">
+                            <h3 class="text-capitalize fw-bold">adventures</h3>
+                            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                                quod.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="gallerys mt-5 " id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gallery-text">
+                        <h2 class="text-capitalize text-center"><span class="gallery-spans"
+                                style="color: #FFa500;">g</span>allery</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="gallery-pic mt-3">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-lg-4 ">
+                        <div class="card-gallery h-100">
+                            <img src="./images/g1.png" class="card-img-top h-100 img-fluid  " alt="...">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-gallery h-100">
+                            <img src="./images/g2.png" class="card-img-top h-100 img-fluid  " alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-gallery h-100">
+                            <img src="./images/g3.png" class="card-img-top img-fluid  " alt="...">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" style="border: none;border-radius: 5px;">
+                    <div class="col-lg-4">
+                        <div class="card-gallery h-100">
+                            <img src="./images/g4.png" class="card-img-top img-fluid  h-100" alt="...">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-gallery h-100">
+                            <img src="./images/g5.png" class="card-img-top img-fluid   h-100" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-gallery h-100">
+                            <img src="./images/g6.png" class="card-img-top img-fluid   " alt="...">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="about-us" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="aboutuss mt-5">
+                        <h2 class="text-capitalize text-center">about <span class="uss"
+                                style="color: #FFa500;">us</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <div class="row">
+                    <div class="col-lg-6 mt-5">
+                        <div class="about-imgs">
+                            <img src="./images/about-img.png" class="img-fluid " alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-5">
+                        <h4 class="text-capitalize fw-bold">how travel agency work</h4>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus eos,
+                            impedit natus perspiciatis iusto ipsam consectetur quo itaque molestiae doloribus
+                            necessitatibus dolorem harum modi tempore. ipsum dolor sit, amet consectetur adipisicing
+                            elit. Consequatur recusandae natus id ea vitae et quisquam iure doloremque beatae!
+                            Consectetur quae placeat magnam autem laboriosam. ipsum dolor sit amet consectetur
+                            adipisicing elit. Doloremque dolores quaerat quidem, consectetur saepe eos tempore placeat
+                            cum, rerum dolorem doloribus obcaecati, quas vitae natus.</p>
+                        <button class="text-capitalize fw-bold px-3"
+                            style="border: none;color: aliceblue;background-color: #FFa500;border-radius: 2px;">read
+                            more...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-text mt-5">
+                        <h2 class="text-capitalize text-center"><span class="footerp" style="color: #FFa500;">t</span>ravel</h2>
+                        <p class="text-center text-capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, quae.</p>
+                        <div class="footer-links text-center">
+                            <i class="fa-brands fa-twitter px-1 py-1" style="background-color: black;color: aliceblue;border-radius: 5px;"></i>
+                            <i class="fa-brands fa-facebook  px-1 py-1 ms-4" style="background-color: black;color: aliceblue;border-radius: 5px;"></i>
+                            <i class="fa-brands fa-instagram  px-1 py-1 ms-4" style="background-color: black;color: aliceblue;border-radius: 5px;"></i>
+                            <i class="fa-brands fa-youtube  px-1 py-1 ms-4"  style="background-color: black;color: aliceblue;border-radius: 5px;"></i>
+
+                        </div>
+                        <h5 class="text-center text-capitalize">designed by sa coding</h5>
+                        <h6 class="text-center text-capitalize">copyright SA coding all rights reserved</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
